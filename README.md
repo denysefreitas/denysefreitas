@@ -1,9 +1,6 @@
 [![Banner inicial](assets/banner-vfinal.png "Banner 'Welcome to Denyse's GitHub'")](https://github.com/denysefreitas)
 
-***
-
 <div align="center">
-<br>
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/denyse-freitas-santos-50779b293/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:denysefreitasantos@gmail.com)
@@ -42,12 +39,8 @@
 ### 🖥️ Estatísticas | Statistics
 
 <div align="center">
-<a>
-  <img height=150 src="https://github-readme-stats.vercel.app/api?username=denysefreitas&show_icons=true&theme=radical&custom_title=Estatísticas do GitHub de Denyse Freitas" />
-</a>
-<a>
-  <img height=150 src="https://github-readme-stats.vercel.app/api/top-langs/?username=denysefreitas&stats_format=bytes&show_icons=true&theme=radical&custom_title=Linguagens mais usadas" />
-</a>
+<img height=150 src="https://github-readme-stats.vercel.app/api?username=denysefreitas&show_icons=true&theme=radical"/>
+<img height=150 src="https://github-readme-stats.vercel.app/api/top-langs/?username=denysefreitas&stats_format=bytes&show_icons=true&theme=radical" />
 </div>
 
 <br>
@@ -60,16 +53,14 @@
 > `US` Some projects that demonstrate how I apply my programming skills.
 
 
-<div align="center">
+<div>
 
 <a href="https://github.com/denysefreitas/maratona-java">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=denysefreitas&repo=maratona-java&theme=radical" />
 </a>
-
 <a href="https://github.com/denysefreitas/python-teomewhy">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=denysefreitas&repo=python-teomewhy&theme=radical" />
 </a>
-
 <br>
 </div>
 
