@@ -70,7 +70,7 @@
 
 ### 📂 Outros Projetos | Other Projects
 
-- [Exercícios de Java (POO) | Java exercises (OOP)](https://github.com/denysefreitas/exercicios-java-poo)
+- [Exercícios de Java (POO) | Java exercises (OOP)](https://github.com/denysefreitas/listas-java-poo)
 
 </div>
 
