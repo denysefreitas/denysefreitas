@@ -71,6 +71,6 @@
 ### 📂 Outros Projetos | Other Projects
 
 - [Exercícios de Java (POO) | Java exercises (OOP)](https://github.com/denysefreitas/listas-java-poo)
-
+- [Exercícios de Python | Python exercises](https://github.com/denysefreitas/listas-python)
 </div>
 
