@@ -1,5 +1,8 @@
 name: Update README cards
 
+permissions:
+  contents: write
+  
 on:
   schedule:
     - cron: "0 3 * * *"
@@ -33,9 +36,9 @@ jobs:
 
       - name: Pull latest changes
         run: |
-          git pull --rebase
+          git pull --rebase origin main
         
       - name: Push changes
         run: |
-          git push
+          git push origin main
 
