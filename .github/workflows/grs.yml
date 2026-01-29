@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
@@ -28,3 +30,12 @@ jobs:
           git add profile/*.svg
           git commit -m "chore(readme): update stats card" || exit 0
           git push
+
+      - name: Pull latest changes
+        run: |
+          git pull --rebase
+        
+      - name: Push changes
+        run: |
+          git push
+
