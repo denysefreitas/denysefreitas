@@ -29,14 +29,16 @@ jobs:
 
       - name: Generate stats.svg
         run: |
-          node github-readme-stats/src/generate.js \
+          cd github-readme-stats
+          node src/generate.js \
             --username=denysefreitas \
             --theme=radical \
             --output=../profile/stats.svg
 
       - name: Generate top-langs.svg
         run: |
-          node github-readme-stats/src/generate.js \
+          cd github-readme-stats
+          node src/generate.js \
             --username=denysefreitas \
             --theme=radical \
             --layout=compact \
