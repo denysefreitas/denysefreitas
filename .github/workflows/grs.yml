@@ -13,37 +13,15 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Clone github-readme-stats
-        run: |
-          git clone https://github.com/anuraghazra/github-readme-stats.git
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Generate stats cards
+        uses: readme-tools/github-readme-stats-action@v1
         with:
-          node-version: 18
-
-      - name: Install dependencies
-        run: |
-          cd github-readme-stats
-          npm install
-
-      - name: Generate stats.svg
-        run: |
-          cd github-readme-stats
-          node src/generate.js \
-            --username=denysefreitas \
-            --theme=radical \
-            --output=../profile/stats.svg
-
-      - name: Generate top-langs.svg
-        run: |
-          cd github-readme-stats
-          node src/generate.js \
-            --username=denysefreitas \
-            --theme=radical \
-            --layout=compact \
-            --top-langs \
-            --output=../profile/top-langs.svg
+          username: denysefreitas
+          theme: radical
+          output_path: profile
+          cards: |
+            stats
+            top-langs
 
       - name: Commit and push
         run: |
