@@ -2,7 +2,7 @@ name: Update README stats card
 
 on:
   schedule:
-    - cron: "0 3 * * *" # todo dia às 03:00 UTC
+    - cron: "0 3 * * *"
   workflow_dispatch:
 
 jobs:
@@ -12,8 +12,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
@@ -30,16 +28,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-
-          # guarda alterações locais (evita erro de rebase)
-          git stash
-
-          # sincroniza com a main
-          git pull --rebase origin main
-
-          # reaplica alterações (se houver)
-          git stash pop || true
-
           git add profile/stats.svg
           git commit -m "chore(readme): update stats card" || exit 0
+          git pull --rebase origin main
           git push
