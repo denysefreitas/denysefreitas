@@ -39,8 +39,10 @@
 ### 🖥️ Estatísticas | Statistics
 
 <div align="center">
-<img height=150 src="https://github-readme-stats.vercel.app/api?username=denysefreitas&show_icons=true&theme=radical"/>
-<img height=150 src="https://github-readme-stats.vercel.app/api/top-langs/?username=denysefreitas&stats_format=bytes&show_icons=true&theme=radical" />
+ 
+<img src="./profile/stats.svg" height="160" />
+<img src="./profile/top-langs.svg" height="160" />
+
 </div>
 
 <br>
