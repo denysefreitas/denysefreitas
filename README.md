@@ -41,12 +41,13 @@
 <div align="center">
  
 <img src="./profile/stats.svg" height="160" />
-<img src="./profile/top-langs.svg" height="160" />
+<img hspace = 10 src="./profile/top-langs.svg" height="160" />
 
 </div>
 
 <br>
-<hr>
+
+***
 
 ### 📌 Projetos em Destaque | Featured Projects
 
@@ -54,25 +55,27 @@
 
 > `US` Some projects that demonstrate how I apply my programming skills.
 
-
-<div>
+<div align="center">
 
 <a href="https://github.com/denysefreitas/maratona-java">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=denysefreitas&repo=maratona-java&theme=radical" />
+  <img hspace = 10 src="./profile/maratona-java.svg" widght = "45% />
 </a>
+
 <a href="https://github.com/denysefreitas/python-teomewhy">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=denysefreitas&repo=python-teomewhy&theme=radical" />
+  <img src="./profile/python-teomewhy.svg" widght = "45% />
 </a>
-<br>
+   
 </div>
 
 ***
 
-<div>
+<div align = "left">
 
-### 📂 Outros Projetos | Other Projects
-
+<hr>
+ 
+ ### 📂 Outros Projetos | Other Projects
 - [Exercícios de Java (POO) | Java exercises (OOP)](https://github.com/denysefreitas/listas-java-poo)
 - [Exercícios de Python | Python exercises](https://github.com/denysefreitas/listas-python)
+  
 </div>
 
