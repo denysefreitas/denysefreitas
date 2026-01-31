@@ -58,11 +58,11 @@
 <div align="center">
 
 <a href="https://github.com/denysefreitas/maratona-java">
-  <img hspace = 10 src="./profile/maratona-java.svg" widght = "40%" />
+  <img hspace = 10 src="./profile/maratona-java.svg" widght = "30%" />
 </a>
 
 <a href="https://github.com/denysefreitas/python-teomewhy">
-  <img src="./profile/python-teomewhy.svg" widght = "40%" />
+  <img src="./profile/python-teomewhy.svg" widght = "30%" />
 </a>
    
 </div>
