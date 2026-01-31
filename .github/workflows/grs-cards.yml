@@ -1,0 +1,41 @@
+# Esse workflow é responsável somente por criar os cards dos repositórios
+# Para acessar o workflow que cria o stats e o top-languages, busque por grs.yml
+
+name: Generate README project cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *"  
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Maratona Java card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          card: pin
+          options: username=denysefreitas&repo=maratona-java&theme=radical
+          path: profile/maratona-java.svg
+
+      - name: Generate Python Teo Me Why card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          card: pin
+          options: username=denysefreitas&repo=python-teomewhy&theme=radical
+          path: profile/python-teomewhy.svg
+
+      - name: Commit and push cards
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "chore(readme): update project cards" || exit 0
+          git push
