@@ -40,8 +40,8 @@
 
 <div align="center">
  
-<img src="./profile/stats.svg" height="160" />
-<img hspace = 10 src="./profile/top-langs.svg" height="160" />
+<img src="./profile/stats.svg" height = "160" />
+<img hspace = 10 src="./profile/top-langs.svg" height = "160" />
 
 </div>
 
@@ -58,11 +58,11 @@
 <div align="center">
 
 <a href="https://github.com/denysefreitas/maratona-java">
-  <img hspace = 10 src="./profile/maratona-java.svg" widght = "45% />
+  <img hspace = 10 src="./profile/maratona-java.svg" widght = "40%" />
 </a>
 
 <a href="https://github.com/denysefreitas/python-teomewhy">
-  <img src="./profile/python-teomewhy.svg" widght = "45% />
+  <img src="./profile/python-teomewhy.svg" widght = "40%" />
 </a>
    
 </div>
@@ -70,12 +70,9 @@
 ***
 
 <div align = "left">
-
-<hr>
  
  ### 📂 Outros Projetos | Other Projects
 - [Exercícios de Java (POO) | Java exercises (OOP)](https://github.com/denysefreitas/listas-java-poo)
 - [Exercícios de Python | Python exercises](https://github.com/denysefreitas/listas-python)
   
 </div>
-
