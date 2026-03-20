@@ -16,11 +16,12 @@
 <div style="text-align: justify;">
 
 `PT-BR`
- Me chamo <strong>Denyse Freitas Santos</strong>, tenho 20 anos e sou natural de Minas Gerais, mas fui criada no Espírito Santo. Em 2022, retornei a Minas para cursar o ensino médio integrado ao <strong>Curso Técnico em Informática</strong> no <strong>IFMG — Campus Ponte Nova</strong>. Atualmente, estou em processo de ingresso no ensino superior, com interesse na área de Ciência da Computação.
+ Me chamo <strong>Denyse Freitas Santos</strong>, tenho 20 anos e sou natural de Minas Gerais, mas fui criada no Espírito Santo. Em 2022, retornei a Minas para cursar o ensino médio integrado ao <strong>Curso Técnico em Informática</strong> no <strong>IFMG — Campus Ponte Nova</strong>. Atualmente, sou estudante de Ciência da Computação na Universidade Federal de Viçosa (UFV).
 
  <br>
 
-  `US` My name is <strong>Denyse Freitas Santos</strong>, I am 20 years old and I was born in Minas Gerais, but I was raised in Espírito Santo. In 2022, I returned to Minas to attend high school integrated with the <strong>Technical Course in Information Technology</strong> at <strong>IFMG — Ponte Nova Campus</strong>. I am currently in the process of entering higher education, with an interest in the field of Computer Science.
+  `US` My name is <strong>Denyse Freitas Santos</strong>, I am 20 years old and I was born in Minas Gerais, but I was raised in Espírito Santo. In 2022, I returned to Minas to attend high school integrated with the <strong>Technical Course in Information Technology</strong> at <strong>IFMG — Ponte Nova Campus</strong>. Currently, I am a Computer Science student at the Federal University of Viçosa (UFV).
+
 </div>
 
 ***
