@@ -49,31 +49,3 @@
 <br>
 
 ***
-
-### 📌 Projetos em Destaque | Featured Projects
-
-> `PT-BR` Alguns projetos que demonstram a aplicação do meu aprendizado em programação.  
-
-> `US` Some projects that demonstrate how I apply my programming skills.
-
-<div align="center">
-
-<a href="https://github.com/denysefreitas/maratona-java">
-  <img hspace = 10 src="./profile/maratona-java.svg" widght = "30%" />
-</a>
-
-<a href="https://github.com/denysefreitas/python-teomewhy">
-  <img src="./profile/python-teomewhy.svg" widght = "30%" />
-</a>
-   
-</div>
-
-***
-
-<div align = "left">
- 
- ### 📂 Outros Projetos | Other Projects
-- [Exercícios de Java (POO) | Java exercises (OOP)](https://github.com/denysefreitas/listas-java-poo)
-- [Exercícios de Python | Python exercises](https://github.com/denysefreitas/listas-python)
-  
-</div>
